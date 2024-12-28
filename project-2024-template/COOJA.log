@@ -1,0 +1,49 @@
+[01:13:50 - main] [Cooja.java:1317] [INFO] - > Starting Cooja
+[01:13:50 - main] [Cooja.java:2858] [INFO] - External tools default settings: /external_tools_linux_64.config
+[01:13:50 - main] [Cooja.java:2888] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[01:13:50 - main] [Cooja.java:4263] [WARN] - Replaced [APPS_DIR]/collect-view with /home/user/cooja/apps/collect-view (default: /home/user/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:13:50 - main] [Cooja.java:3627] [WARN] - Loaded simulation may depend on not found  extension: '/home/user/cooja/apps/collect-view'
+[01:13:50 - main] [Simulation.java:422] [INFO] - Simulation random seed: -5773189985439673864
+[01:13:50 - main] [CompileContiki.java:140] [INFO] - > make app.sky TARGET=sky 
+[01:13:50 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/Desktop/Fixing/project-2024-template/app.sky
+[01:13:51 - main] [Cooja.java:1783] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[01:13:51 - main] [Cooja.java:1783] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[01:13:51 - main] [Cooja.java:1783] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[01:13:51 - main] [Cooja.java:1783] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[01:13:51 - main] [Cooja.java:1783] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.RadioLogger
+[01:13:52 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:13:52 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 1800000 ms
+[01:13:53 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[01:13:53 - Thread-2] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1735344833332
+[01:14:12 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 365.5 sec
+[01:14:24 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 284.4 sec
+[01:14:38 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 258.0 sec
+[01:14:51 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 233.8 sec
+[01:15:04 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 213.6 sec
+[01:15:14 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 190.2 sec
+[01:15:25 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 172.1 sec
+[01:15:40 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 160.5 sec
+[01:15:51 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 144.4 sec
+[01:16:02 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 129.2 sec
+[01:16:14 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 115.8 sec
+[01:16:26 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 102.4 sec
+[01:16:38 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 89.1 sec
+[01:16:51 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 76.3 sec
+[01:17:03 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 63.6 sec
+[01:17:14 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 50.3 sec
+[01:17:25 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 37.4 sec
+[01:17:36 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 24.8 sec
+[01:17:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 12.4 sec
+[01:18:00 - Thread-2] [LogScriptEngine.java:375] [INFO] - Timeout event @ 1800000000
+[01:18:00 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[01:18:00 - Thread-2] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1735345080231	Duration: 246899 ms	Simulated time 1800040 ms	Ratio 7.290592509487685
+[01:18:00 - AWT-EventQueue-1] [ScriptRunner.java:430] [INFO] - Test script deactivated
