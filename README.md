@@ -1,1 +1,1 @@
-Project for a simulated routing protocol in Contiki. The protocol is a tree-based protocol tested both in the Cooja simulator and on the UNITN Cloves testbed. A detailed description and evaluation of the results can be read in report.pdf
+Project for a anycast routing protocol in Contiki. The protocol is a tree-based protocol tested both in the Cooja simulator and on the UNITN Cloves testbed. A detailed description and evaluation of the results can be read in report.pdf
