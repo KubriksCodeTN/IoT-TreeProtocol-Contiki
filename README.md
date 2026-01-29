@@ -20,14 +20,20 @@ The protocol was validated through both simulation and experimental hardware dep
 * **UniTN Testbed**: Deployed on real hardware (16 and 36-node setups) to verify scalability and performance in noisy environments.
 * **Data Link Layer**: Tested with **ContikiMAC** (for power-constrained scenarios) and **nullrdc**.
 
-### Results at a Glance
+### Results
 * **PDR**: Achieved up to 99-100% in simulation and 82-93% on the physical testbed.
 * **Duty Cycle**: High energy efficiency with ContikiMAC (~2-3% radio-on time).
 * **Latency**: Average latency of ~150ms in duty-cycled configurations.
 
-## Tech Stack
-
-* **Operating System**: Contiki OS
-* **Simulation Tools**: Cooja
-* **Language**: C
-* **Key Concepts**: Distance Vector Routing, MAC protocols, Link Quality Estimation.
+## Usage
+To compile the porject for Cooja you can run:
+```bash
+make TARGET=sky
+```
+While for the Cloves testbed you can run:
+```bash
+make TARGET=zoul
+```
+To choose the metric between LQI and hop count, go in metric.h and comment/uncomment
+#define USE_LQI_METRIC
+To run the analysis tools read the README.txt in the project/ folder
